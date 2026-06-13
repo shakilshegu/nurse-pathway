@@ -8,10 +8,7 @@ const nextConfig: NextConfig = {
     ],
   },
   async redirects() {
-    return [
-      { source: "/login", destination: "/", permanent: false },
-      { source: "/signup", destination: "/", permanent: false },
-    ];
+    return [];
   },
 };
 
