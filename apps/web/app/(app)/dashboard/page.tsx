@@ -25,12 +25,13 @@ export default function DashboardPage() {
         <section className="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
           {/* Route Status Card */}
           <div className="lg:col-span-8 bg-white rounded-xl card-shadow overflow-hidden relative group">
-            <div className="absolute inset-0 opacity-10 group-hover:opacity-20 transition-opacity">
+            <div className="absolute inset-0 opacity-15 group-hover:opacity-25 transition-opacity">
               <img
                 src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZgDXphFMGMQiOxg88lebJTJjn2WIAZfvK4ZeUmB8EAVSRGF4nWHfl_mu0wiaFeKPPM9FaAfEADkSnKxe87TWH8KdY7YBqPiGHB0vrshLelXC8XvCSWfon5u1AFAV0lk9FvSk1GLz5zBjkhjLb0gzTNeOlrO32MzzsTY-ZqtsP66Mh2bnZqDDJMDv-8uXaTBpecpkX6IdoTgirImz3lgB7sMB_YBBC_xGMEU7D5Z9fLGiQRoP9c1qevzZlhDj1jtyEPQ3FBDMX63A"
                 alt="Germany scenery"
                 className="w-full h-full object-cover"
               />
+              <div className="absolute inset-0 bg-[#006874] mix-blend-color pointer-events-none"></div>
             </div>
             <div className="relative p-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-lg">
               <div>
